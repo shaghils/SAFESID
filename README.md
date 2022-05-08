@@ -14,5 +14,7 @@ The app works and looks best when accessing it from mobile devices. (We used a m
 The source code and demo link for the app have been made available. 
 
 The complete source code for this project is in the folder named "SafeSide1.0.2" 
+
 Demo Link: https://safeside.appgyverapp.com/
+
 Youtube Video: https://youtu.be/_jM-ZZcsD70
