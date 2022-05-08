@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map</title>
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.css' rel='stylesheet' />
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+    <div id='map'></div>
+<script>
+  mapboxgl.accessToken = 'pk.eyJ1Ijoic2hhZ2hpcyIsImEiOiJjbDJ0ZHB1YjAwM2FwM2dvMnFwa3d4Z3N6In0.VKnSr3dfXHfL7zZ8Fwf79g';
+  var map = new mapboxgl.Map({
+    container: 'map',
+    style: 'mapbox://styles/shaghis/cl2tdvf5c005c14o935tpbzaw'
+  });
+</script>
+    <div id ='form' style='width: 50vh; height: 50vh;', 'text-align = center'></div>
+    <p> This is a 3D map </p>
+</body>
+</html>
